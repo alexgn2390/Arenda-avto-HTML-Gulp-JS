@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Bebas_Neue;
+  src: url("../fonts/Bebas_Neue_regular.ttf");
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto_regular.ttf");
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url("../fonts/Roboto_bold.ttf");
+}
+body .ctn {
+  background-image: url("../images/fon.png");
+}
+body .ctn .container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+body .ctn .header {
+  border-bottom: 1px solid #000000;
+  padding: 25px 0;
+  margin-bottom: 104px;
+}
+body .ctn .header .header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .ctn .header .header__container .menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 705px;
+  list-style: none;
+}
+body .ctn .header .header__container .menu__list .menu_link {
+  font-family: RobotoRegular, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+body .ctn .main .main__container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 307px;
+}
+body .ctn .main .main__container .main__info .main__title {
+  font-size: 60px;
+  max-width: 590px;
+  letter-spacing: 1px;
+  line-height: 70px;
+}
+body .ctn .main .main__container .main__info .main__text {
+  color: #ffffff;
+  max-width: 280px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+body .ctn .main .main__container .main__image {
+  position: absolute;
+  top: -65px;
+  left: 176px;
+}
+body .ctn .title {
+  font-family: Bebas_Neue, sans-serif;
+  color: #ffffff;
+}
+body .ctn .span__color {
+  color: #F9E59C;
+}
+body .ctn .all_h2__title {
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 65px;
+}
+body .ctn .info__content .info__content_1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .ctn .info__content .info__content_1 .info__image {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+body .ctn .info__content .info__content_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .ctn .info__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 53px;
+}
+body .ctn .info__header .border {
+  border: 1px solid #FDFDF4;
+  width: 50px;
+}
+body .ctn .info__header .head {
+  font-size: 20px;
+  font-family: RobotoBold, sans-serif;
+  color: #ffffff;
+  margin-left: 30px;
+}
+body .ctn .info__text {
+  max-width: 495px;
+  margin-left: 80px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 200px;
+}
+/*# sourceMappingURL=styles.css.map */

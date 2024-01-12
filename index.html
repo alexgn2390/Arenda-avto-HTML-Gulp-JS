@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="lib.css/slick.css">
+    <link rel="stylesheet" href="lib.css/slick-theme.css">
+    <link rel="stylesheet" href="lib.css/jquery-ui.min.css">
+    <link rel="stylesheet" href="lib.css/hover-min.css">
+    <link rel="stylesheet" href="lib.css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet/less" type="text/css" href="css/styles.less"/>
+    <script src="scripts/less.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__container">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <nav class="menu" id="menu">
+            <div class="menu-close" id="menu-close">
+                <svg width="30px" height="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>/svg/ic-cross</title>
+                    <desc>Created with Sketch.</desc>
+                    <defs>
+                    </defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="ic-cross" fill="#4A4A4A">
+                            <path d="M12,10.4834761 L7.83557664,6.31871006 C7.41207382,5.89517239 6.73224519,5.89425872 6.31350312,6.31303524 C5.89184166,6.7347314 5.89730155,7.41332336 6.31917747,7.83523399 L10.4836008,12 L6.31917747,16.164766 C5.89730155,16.5866766 5.89184166,17.2652686 6.31350312,17.6869648 C6.73224519,18.1057413 7.41207382,18.1048276 7.83557664,17.6812899 L12,13.5165239 L16.1644234,17.6812899 C16.5879262,18.1048276 17.2677548,18.1057413 17.6864969,17.6869648 C18.1081583,17.2652686 18.1026985,16.5866766 17.6808225,16.164766 L13.5163992,12 L17.6808225,7.83523399 C18.1026985,7.41332336 18.1081583,6.7347314 17.6864969,6.31303524 C17.2677548,5.89425872 16.5879262,5.89517239 16.1644234,6.31871006 L12,10.4834761 L12,10.4834761 Z"
+                                  id="Combined-Shape">
+
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="menu__title">
+                МЕНЮ
+            </div>
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="#" class="menu_link hvr-underline-from-left">Главная</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#carousel" class="menu_link hvr-underline-from-left" id="fleet">Автопарк</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#advantage" class="menu_link hvr-underline-from-left" id="conditions">Условия проката</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#contacts_link" class="menu_link hvr-underline-from-left" id="contacts">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="menu__burger" id="burger">
+            <svg id="Layer_1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <style>.cls-1 {
+                        fill: none;
+                    }</style>
+                </defs>
+                <title/>
+                <g data-name="Layer 2" id="Layer_2">
+                    <path d="M28,10H4A1,1,0,0,1,4,8H28a1,1,0,0,1,0,2Z"/>
+                    <path d="M28,17H4a1,1,0,0,1,0-2H28a1,1,0,0,1,0,2Z"/>
+                    <path d="M28,24H4a1,1,0,0,1,0-2H28a1,1,0,0,1,0,2Z"/>
+                </g>
+                <g id="frame">
+                    <rect class="cls-1" height="32" width="32"/>
+                </g>
+            </svg>
+        </div>
+    </div>
+</header>
+
+<section class="main">
+    <div class="container main__container">
+        <div class="main__info">
+            <div class="title main__title">
+                Самый простой и быстрый
+                способ аренды <span class="span__color span__color_text">
+                Lamborghini
+                в Монако
+            </span>
+            </div>
+            <div class="title main__title_small-screen">
+                Самый удобный
+                способ аренды <span class="span__color span__color_text">
+                Lamborghini
+                в Монако
+            </span>
+            </div>
+            <div class="main__text">
+                При условии аренды автомобиля
+                от 7 дней — скидка 20%
+            </div>
+            <img src="images/lamba__main.png" class="main__image img-fluid" alt="lamba_main">
+        </div>
+    </div>
+</section>
+
+<section class="info">
+    <div class="container  info__container">
+        <div class="title info__h2-title">
+            <span class="span__color">Легендарные Lamborghini</span> для легендарных людей
+        </div>
+        <div class="info__content">
+            <div class="info__content_1">
+                <div class="info__description">
+                    <div class="info__content_1-header">
+                        <div class="info__border"></div>
+                        <div class="head info__head">Пощеголяйте на улицах Монако</div>
+                    </div>
+                    <div class="p__text info__content_1-text">
+                        За рулем одного из наших Lamborghini в Монако вы непременно привлечете к себе взгляды
+                        окружающих.
+                        <span class="span__text-color"> Выберите Lamborghini</span> Huracan в ярко зеленой окраске,
+                        оснащенный 10-цилиндровым двигателем, или купе
+                        Lamborghini Aventador, 12-цилиндровый двигатель которого позволяет развивать <span
+                            class="span__text-color">мощность 700 л.с.</span>
+                        Свирепый Aventador словно пересекает границы времени, разгоняясь до сотни всего за 2,9
+                        секунды.
+                        Но
+                        будьте повнимательнее — незаметно достигнув максимальных 350 км/ч, вы рискуете заработать
+                        штраф.
+                        Этот автомобиль мечты арендуется примерно за 1200 $ в сутки. Откиньте верх этого автомобиля
+                        и
+                        <span class="span__text-color">насладитесь вниманием</span> окружающих к вашей персоне.
+                    </div>
+                </div>
+                <div class="info__content_1__image">
+                    <img src="images/block_two_picture1.png" alt="picture_1">
+                </div>
+            </div>
+            <div class="info__content_2">
+                <div class="info__content_2-header">
+                    <div class="info__border"></div>
+                    <div class="head info__head">Ночная поездка на Lamborghini Aventador</div>
+                </div>
+                <div class="info__description info__content_2__description-text">
+                    <div class="info__content_2__image">
+                        <img src="images/block_two_lamborghini-side.png" alt="lamborghini-side">
+                    </div>
+                    <div class="p__text info__content_2-text">
+                        <span class="span__text-color">Превратите Lamborghini Aventador в своего гида </span>по
+                        лучшим
+                        барам
+                        и ресторанам Монако. Разнообразие и
+                        смесь культур четко улавливаются в этом городе: декор в английском или южно-африканском
+                        стиле,
+                        живая
+                        музыка или пластинки с электронными ритмами. Общая черта здешних ночных заведений лишь одна
+                        —
+                        они
+                        все открыты от заката до рассвета. <span
+                            class="span__text-color">Арендуя Lamborghini в Монако</span>, помните слова великой Коко
+                        Шанель:
+                        «Лучшие в жизни вещи достаются нам бесплатно, а роскошные — дорого». Только помните: все эти
+                        штрафы,
+                        привезенные из Монако - это всего лишь сувениры.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="form">
+    <div class="form__container">
+        <img src="images/block_three_lamborghini-Urus.png" class="form__image img-fluid ">
+        <div class="form__block ">
+            <div class="title form__h2-title">
+                <span class="span__color">Как арендовать </span> Lamborghini в Монако?
+            </div>
+            <div class="p__text form__p__text">
+                Самый простой и быстрый способ <span class="span__text-color">чтоб забронировать автомобиль </span>-
+                позвонить нам и задать все интересующие вас
+                вопросы. Либо выберите понравившийся вам автомобиль на нашем сайте, <span class="span__text-color"> заполните специальную форму и ждите
+            звонка </span>от наших представителей. Наши консультанты проинформируют вас относительно стоимости и
+                необходимых
+                документов для аренды.
+            </div>
+            <div class="form__action">
+                <button class="form__button form__button-btn hvr-buzz-out hvr-rectangle-out" type="button"
+                        id="order">
+                    Заказать звонок
+                </button>
+                <button class="form__button hvr-bob hvr-rectangle-out" type="button" id="fillout">Заполнить форму
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="advantage" id="advantage">
+    <div class="container  advantage__container">
+        <div class="title advantage__title"><span class="span__color">Преимущества </span> аренды у нас</div>
+        <div class="advantage__items">
+            <div class="advantage__item">
+                <div class="advantage__item-content">
+                    <img src="images/block_four_icon_airport.png" alt="airport">
+                    <div class="advantage__item-text">
+                        Доставка в аэропорт или к отелю
+                    </div>
+                </div>
+                <div class="advantage__item-textarea">
+                    Доставим автомобиль на любой удобный для вас адрес
+                </div>
+                <div class="advantage__item-textarea">
+                    Можете вернуть автомобиль в любом городе или стране
+                </div>
+            </div>
+            <div class="advantage__item">
+                <div class="advantage__item-content">
+                    <img src="images/block_four_icon_travel-visa.png" alt="travel-visa">
+                    <div class="advantage__item-text">
+                        Гибкие условия оплаты
+                    </div>
+                </div>
+                <div class="advantage__item-textarea">
+                    Вы можете сделать предоплату онлайн или оплатить начиными
+                </div>
+                <div class="advantage__item-textarea">
+                    Отсуствие скрытых платежей и комиссий
+                </div>
+            </div>
+            <div class="advantage__item">
+                <div class="advantage__item-content">
+                    <img src="images/block_four_icon_inquiry.png" alt="inquiry">
+                    <div class="advantage__item-text">
+                        Поддержка 24/7 после бронирования
+                    </div>
+                </div>
+                <div class="advantage__item-textarea">
+                    Круглосуточная помощь и консультация по любому вопросу
+                </div>
+                <div class="advantage__item-textarea">
+                    Профессианальная подержка на разных иностраных языках
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="carousel" id="carousel">
+    <div class="container carousel__container">
+        <div class="title carousel__title"><span class="span__color">Наш </span> автопарк</div>
+        <div class="carousel__item">
+            <div>
+                <img src="images/block_five_lamba_1.png" alt="..." class="img-fluid">
+                <div class="carousel__item-block">
+                    <div class="carousel__item-block-text">
+                        <div class="carousel__item-text">Lamborghini Aventador SVJ</div>
+                        <div class="carousel__item-text">Стоимость аренды в сутки: 1 280 $</div>
+                    </div>
+                    <div class="carousel__item-block-action">
+                        <button class="carousel__item-block__button  hvr-back-pulse" type="button" id="car_1">Арендовать
+                            авто
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="images/block_five_lamba_2.png" alt="..." class="img-fluid">
+                <div class="carousel__item-block">
+                    <div class="carousel__item-block-text">
+                        <div class="carousel__item-text">Lamborghini Aventador SVJ</div>
+                        <div class="carousel__item-text">Стоимость аренды в сутки: 1 420 $</div>
+                    </div>
+                    <div class="carousel__item-block-action">
+                        <button class="carousel__item-block__button hvr-back-pulse" type="button" id="car_2">Арендовать
+                            авто
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="images/block_five_lamba_3.png" alt="..." class="img-fluid">
+                <div class="carousel__item-block">
+                    <div class="carousel__item-block-text">
+                        <div class="carousel__item-text">Lamborghini Aventador S Roadster</div>
+                        <div class="carousel__item-text">Стоимость аренды в сутки: 1 380 $</div>
+                    </div>
+                    <div class="carousel__item-block-action">
+                        <button class="carousel__item-block__button hvr-back-pulse" type="button" id="car_3">Арендовать
+                            авто
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="images/block_five_lamba_4.png" alt="..." class="img-fluid">
+                <div class="carousel__item-block">
+                    <div class="carousel__item-block-text">
+                        <div class="carousel__item-text">Lamborghini Aventador SVJ Roadster</div>
+                        <div class="carousel__item-text">Стоимость аренды в сутки: 1 350 $</div>
+                    </div>
+                    <div class="carousel__item-block-action">
+                        <button class="carousel__item-block__button hvr-back-pulse" type="button" id="car_4">Арендовать
+                            авто
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="reviews">
+    <div class="container  reviews__container">
+        <div class="title reviews__title"><span class="span__color">Что говорят </span> наши клиенты</div>
+        <div class="reviews__cards">
+            <div class="review__card-1">
+                <div class="review__card-1__block">
+                    <img src="images/block_six_aleksei.png" alt="aleksei">
+                    <div class="review__card-1__name">Алексей</div>
+                </div>
+                <div class="review__card-1__textarea">Это было круто и незабываемо! Шикарные машины, которые только
+                    радуют, очень дружелюбный персонал. Я выбрал то, что нужно и в полном восторге. Спасибо!
+                </div>
+            </div>
+            <div class="review__card-1">
+                <div class="review__card-1__block">
+                    <img src="images/block_six_ivan.png" alt="aleksei">
+                    <div class="review__card-1__name">Иван</div>
+                </div>
+                <div class="review__card-1__textarea">Если и есть самое лучшее место и крутыми машинами, то это
+                    однозначно здесь! Получил огромное удовольствия за время аренды. Рекомендую безусловно.
+                </div>
+            </div>
+            <div class="review__card-1">
+                <div class="review__card-1__block">
+                    <img src="images/block_six_dmitrii.png" alt="aleksei">
+                    <div class="review__card-1__name">Дмитрий</div>
+                </div>
+                <div class="review__card-1__textarea">Очень понравились машины и сервис. Все настолько схвачено и на
+                    столько человечно, что не может не оставить за собой ряд положительных эмоций. Я в восторге!
+                </div>
+            </div>
+            <div class="review__card-1">
+                <div class="review__card-1__block">
+                    <img src="images/block_six_aleksei.png" alt="aleksei">
+                    <div class="review__card-1__name">Алексей</div>
+                </div>
+                <div class="review__card-1__textarea">Это было круто и незабываемо! Шикарные машины, которые только
+                    радуют, очень дружелюбный персонал. Я выбрал то, что нужно и в полном восторге. Спасибо!
+                </div>
+            </div>
+            <div class="review__card-1">
+                <div class="review__card-1__block">
+                    <img src="images/block_six_ivan.png" alt="aleksei">
+                    <div class="review__card-1__name">Иван</div>
+                </div>
+                <div class="review__card-1__textarea">Если и есть самое лучшее место и крутыми машинами, то это
+                    однозначно здесь! Получил огромное удовольствия за время аренды. Рекомендую безусловно.
+                </div>
+            </div>
+            <div class="review__card-1">
+                <div class="review__card-1__block">
+                    <img src="images/block_six_dmitrii.png" alt="aleksei">
+                    <div class="review__card-1__name">Дмитрий</div>
+                </div>
+                <div class="review__card-1__textarea">Очень понравились машины и сервис. Все настолько схвачено и на
+                    столько человечно, что не может не оставить за собой ряд положительных эмоций. Я в восторге!
+                </div>
+            </div>
+            <div class="review__card-1">
+                <div class="review__card-1__block">
+                    <img src="images/block_six_aleksei.png" alt="aleksei">
+                    <div class="review__card-1__name">Алексей</div>
+                </div>
+                <div class="review__card-1__textarea">Это было круто и незабываемо! Шикарные машины, которые только
+                    радуют, очень дружелюбный персонал. Я выбрал то, что нужно и в полном восторге. Спасибо!
+                </div>
+            </div>
+            <div class="review__card-1">
+                <div class="review__card-1__block">
+                    <img src="images/block_six_ivan.png" alt="aleksei">
+                    <div class="review__card-1__name">Иван</div>
+                </div>
+                <div class="review__card-1__textarea">Если и есть самое лучшее место и крутыми машинами, то это
+                    однозначно здесь! Получил огромное удовольствия за время аренды. Рекомендую безусловно.
+                </div>
+            </div>
+            <div class="review__card-1">
+                <div class="review__card-1__block">
+                    <img src="images/block_six_dmitrii.png" alt="aleksei">
+                    <div class="review__card-1__name">Дмитрий</div>
+                </div>
+                <div class="review__card-1__textarea">Очень понравились машины и сервис. Все настолько схвачено и на
+                    столько человечно, что не может не оставить за собой ряд положительных эмоций. Я в восторге!
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="contacts" id="contacts_link">
+    <div class="container  contacts__container">
+        <div class="contacts-info">
+            <div class="title contacts__title">Как нас <span class="span__color">найти</span></div>
+            <div class="contacts-info__text">Scuderia Monte-Carlo, 5 Avenue, Monaco</div>
+            <div class="contacts-info__text">+44 220 320 4030</div>
+            <div class="contacts-info__text">reservations@carental.com</div>
+        </div>
+        <div class="contacts__image ">
+            <img src="images/star_map.png" alt="star_map" class="img-fluid">
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container  footer__container">
+        <div class="footer__block-logo">
+            <div class="logo footer__logo"><img src="images/logo.png" alt="logo"></div>
+            <div class="footer__social">
+                <div class="footer__soc_net"><a href="https://www.facebook.com"><img
+                        src="images/block_eight_facebook.png" alt="facebook"></a></div>
+                <div class="footer__soc_net"><a href="https://www.instagram.com"><img
+                        src="images/block_eight_instagram.png" alt="instagram"></a></div>
+                <div class="footer__soc_net"><a href="https://linkedin.com/"><img src="images/block_eight_linkedin.png"
+                                                                                  alt="linkedin"></a></div>
+            </div>
+        </div>
+        <div class="footer__hours">
+            <div class="footer__hours-title">Часы работы</div>
+
+            <div class="footer__text">
+                <div class="footer__text-1">Понедельник-пятница</div>
+                <div class="footer__text-1">8:00-19:00</div>
+            </div>
+            <div class="footer__text">
+                <div class="footer__text-1">Помощь на дороге</div>
+                <div class="footer__text-1">Круглосуточно</div>
+            </div>
+        </div>
+        <div class="footer__contacts">
+            <div class="footer__contacts-title">Свяжитесь с нами</div>
+            <div class="footer__text">
+                <div class="footer__text-2"><img src="images/block_eight_phone-call.png" alt="phone-call"></div>
+                <div class="footer__text-2">+44 220 320 4030</div>
+            </div>
+            <div class="footer__text">
+                <div class="footer__text-2"><img src="images/block_eight_email.png" alt="email"></div>
+                <div class="footer__text-2">reservations@carental.com.</div>
+            </div>
+            <div class="footer__text">
+                <div class="footer__text-2"><img src="images/block_eight_placeholder.png" alt="email"></div>
+                <div class="footer__text-2">Scuderia Monte-Carlo, 5 Avenue, Monaco</div>
+            </div>
+        </div>
+        <div class="onUp" id="onUp">
+            <img src="images/onUp.png" alt="onUp">
+        </div>
+    </div>
+</footer>
+
+<div class="popup__form__background" id="popup__form">
+    <div class="popup__answer_1">
+        <div class="popup__answer-text_1">
+            Cпасибо, мы свяжемся с вами в <span class="span__color">ближайшее время! </span>
+        </div>
+    </div>
+    <div class="popup__form" id="popup__form_scroll">
+        <div class="popup__form-close">
+            <svg width="30px" height="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>/svg/ic-cross</title>
+                <desc>Created with Sketch.</desc>
+                <defs>
+                </defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="ic-cross" fill="#4A4A4A">
+                        <path d="M12,10.4834761 L7.83557664,6.31871006 C7.41207382,5.89517239 6.73224519,5.89425872 6.31350312,6.31303524 C5.89184166,6.7347314 5.89730155,7.41332336 6.31917747,7.83523399 L10.4836008,12 L6.31917747,16.164766 C5.89730155,16.5866766 5.89184166,17.2652686 6.31350312,17.6869648 C6.73224519,18.1057413 7.41207382,18.1048276 7.83557664,17.6812899 L12,13.5165239 L16.1644234,17.6812899 C16.5879262,18.1048276 17.2677548,18.1057413 17.6864969,17.6869648 C18.1081583,17.2652686 18.1026985,16.5866766 17.6808225,16.164766 L13.5163992,12 L17.6808225,7.83523399 C18.1026985,7.41332336 18.1081583,6.7347314 17.6864969,6.31303524 C17.2677548,5.89425872 16.5879262,5.89517239 16.1644234,6.31871006 L12,10.4834761 L12,10.4834761 Z"
+                              id="Combined-Shape">
+
+                        </path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="popup__form-title"><span class="span__color">Закажите идеальный автомобиль </span>уже сегодня
+        </div>
+        <div class="popup__form-tit">Детали проката</div>
+        <div class="popup__form-application">
+            <div class="popup__form-application-title">1. Данные заявки</div>
+            <div class="popup__form_select_triangle">
+                <select class="popup__form-select" id="select_1">
+                    <option value="" class="popup__form-application-cars">Выберите автомобиль</option>
+                    <option value="svjg" class="popup__form-application-cars">Lamborghini Aventador SVJ green</option>
+                    <option value="svjy" class="popup__form-application-cars">Lamborghini Aventador SVJ yellow</option>
+                    <option value="s-roadster" class="popup__form-application-cars">Lamborghini Aventador S Roadster
+                    </option>
+                    <option value="svj-roadster" class="popup__form-application-cars">Lamborghini Aventador SVJ
+                        Roadster
+                    </option>
+                </select>
+                <div class="error-input">Выберите автомобиль!</div>
+            </div>
+            <div class="popup__form-application-inputs" id="begin_end">
+                <input type="text" class="popup__form-application-input" placeholder="Начало" id="begin">
+                <input type="text" class="popup__form-application-input" placeholder="Окончание" id="end">
+            </div>
+            <div class="error-input">Поля, обязательные для заполнения!</div>
+            <div class="popup__form_select_triangle">
+                <select class="popup__form-select" id="select_2">
+                    <option value="">Откуда поедете</option>
+                    <option value="monako" class="popup__form-application-cars">Монако</option>
+                    <option value="monte-karlo" class="popup__form-application-cars">Монте-Карло</option>
+                    <option value="sen-roman" class="popup__form-application-cars">Сен-Роман</option>
+                    <option value="larvotto" class="popup__form-application-cars">Ларвотто</option>
+                    <option value="sen-mishel" class="popup__form-application-cars">Сен-Мишель</option>
+                </select>
+                <div class="error-input">Выберите город!</div>
+            </div>
+        </div>
+        <div class="popup__form-personal_info">
+            <div class="popup__form-application-title">2. Личная информация</div>
+            <input type="text" class="popup__form-personal_info-input" placeholder="Ваше имя" id="name">
+            <div class="error-input">Введите ваше имя!</div>
+            <input type="text" class="popup__form-personal_info-input" placeholder="Ваш телефон" id="phone">
+            <div class="error-input">Введите ваш телефон!</div>
+            <input type="text" class="popup__form-personal_info-input" placeholder="Ваш e-mail" id="email">
+            <div class="error-input">Введите ваш e-mail!</div>
+        </div>
+        <div class="popup__form-message">
+            <div class="popup__form-application-title">3. Сообщение</div>
+            <textarea class="popup__form-message_text" rows="5" cols="30"
+                      placeholder="Введите ваше сообщение (не обязательно)"></textarea>
+        </div>
+        <div class="popup__form-action">
+            <button type="button" class="form-button" id="form-button_send">Отправить заявку</button>
+        </div>
+        <div class="popup__form-warning"><a href="info.html" class="popup__form-warning-link">Предоставляя информацию,
+            вы даете
+            согласие на обработку вашей личной информации
+            в
+            соответствии с нашей политикой конфиденциальности</a>
+        </div>
+    </div>
+</div>
+
+<div class="popup__miniForm__background">
+    <div class="popup__answer_2">
+        <div class="popup__answer-text_2">
+            Cпасибо, мы свяжемся с вами в <span class="span__color">ближайшее время!</span>
+        </div>
+    </div>
+    <div class="popup__miniForm popup__miniForm__padd">
+        <div class="popup__miniForm-close">
+            <svg width="30px" height="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>/svg/ic-cross</title>
+                <desc>Created with Sketch.</desc>
+                <defs>
+
+                </defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="ic-cross" fill="#4A4A4A">
+                        <path d="M12,10.4834761 L7.83557664,6.31871006 C7.41207382,5.89517239 6.73224519,5.89425872 6.31350312,6.31303524 C5.89184166,6.7347314 5.89730155,7.41332336 6.31917747,7.83523399 L10.4836008,12 L6.31917747,16.164766 C5.89730155,16.5866766 5.89184166,17.2652686 6.31350312,17.6869648 C6.73224519,18.1057413 7.41207382,18.1048276 7.83557664,17.6812899 L12,13.5165239 L16.1644234,17.6812899 C16.5879262,18.1048276 17.2677548,18.1057413 17.6864969,17.6869648 C18.1081583,17.2652686 18.1026985,16.5866766 17.6808225,16.164766 L13.5163992,12 L17.6808225,7.83523399 C18.1026985,7.41332336 18.1081583,6.7347314 17.6864969,6.31303524 C17.2677548,5.89425872 16.5879262,5.89517239 16.1644234,6.31871006 L12,10.4834761 L12,10.4834761 Z"
+                              id="Combined-Shape">
+
+                        </path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="popup__form-title"><span class="span__color">Мы перезвоним вам </span>в ближайшее время</div>
+        <input type="text" class="popup__form-personal_info-input" id="yourname" placeholder="Ваше имя">
+        <div class="error-input">Введите ваше имя!</div>
+        <input type="text" class="popup__form-personal_info-input" id="yourphone" placeholder="Ваш телефон">
+        <div class="error-input">Введите ваш телефон!</div>
+        <div class="popup__form-action popup__form-action_btn">
+            <button type="button" class="form-button" id="form-button_order">Заказать звонок</button>
+        </div>
+    </div>
+</div>
+
+<div class="popup_search__background">
+    <div class="popup_search">
+        <div class="popup__search-close">
+            <svg width="30px" height="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>/svg/ic-cross</title>
+                <desc>Created with Sketch.</desc>
+                <defs>
+                </defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="ic-cross" fill="#4A4A4A">
+                        <path d="M12,10.4834761 L7.83557664,6.31871006 C7.41207382,5.89517239 6.73224519,5.89425872 6.31350312,6.31303524 C5.89184166,6.7347314 5.89730155,7.41332336 6.31917747,7.83523399 L10.4836008,12 L6.31917747,16.164766 C5.89730155,16.5866766 5.89184166,17.2652686 6.31350312,17.6869648 C6.73224519,18.1057413 7.41207382,18.1048276 7.83557664,17.6812899 L12,13.5165239 L16.1644234,17.6812899 C16.5879262,18.1048276 17.2677548,18.1057413 17.6864969,17.6869648 C18.1081583,17.2652686 18.1026985,16.5866766 17.6808225,16.164766 L13.5163992,12 L17.6808225,7.83523399 C18.1026985,7.41332336 18.1081583,6.7347314 17.6864969,6.31303524 C17.2677548,5.89425872 16.5879262,5.89517239 16.1644234,6.31871006 L12,10.4834761 L12,10.4834761 Z"
+                              id="Combined-Shape">
+
+                        </path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="popup__search-title"><span class="span__color">Поиск авто </span> для аренды</div>
+        <div class="popup__search-application-title">Место получения</div>
+        <select class="popup__search-select" id="select_3">
+            <option value="">Откуда поедете</option>
+            <option value="monako" class="popup__form-application-cars">Монако</option>
+            <option value="monte-karlo" class="popup__form-application-cars">Монте-Карло</option>
+            <option value="sen-roman" class="popup__form-application-cars">Сен-Роман</option>
+            <option value="larvotto" class="popup__form-application-cars">Ларвотто</option>
+            <option value="sen-mishel" class="popup__form-application-cars">Сен-Мишель</option>
+        </select>
+        <div class="popup__search__checkbox">
+            <label>
+                <input type="checkbox" class="checkbox">
+            </label>
+            <div class="search__checkbox_text">Возврат в другом месте</div>
+        </div>
+        <div class="popup__search-application-title">Дата получения</div>
+        <div class="popup__search_date">
+            <input type="date">
+            <input type="time">
+        </div>
+        <div class="popup__search__checkbox">
+            <input type="checkbox">
+            <div class="search__checkbox_text">Возраст водителя 25 - 70</div>
+        </div>
+        <div class="popup__search-application-title">Дата возврата</div>
+        <div class="popup__search_date">
+            <input type="date">
+            <input type="time">
+        </div>
+        <div class="popup__search_action">
+            <button type="button" class="search__button">Поиск</button>
+        </div>
+    </div>
+</div>
+<div class="loader">
+    <div class="lds-ripple">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
+<script src="scripts/jquery-3.6.3.min.js"></script>
+<script src="scripts/jquery-ui.min.js"></script>
+<script src="scripts/jquery.maskedinput.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/slick.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
